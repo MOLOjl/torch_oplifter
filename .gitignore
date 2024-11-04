@@ -1,0 +1,11 @@
+build
+external
+.vs
+.vscode
+.*.sw?
+tags
+*~
+__pycache__
+*.egg*
+dist
+debugfile

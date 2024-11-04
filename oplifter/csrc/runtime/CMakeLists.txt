@@ -1,0 +1,6 @@
+FILE(GLOB _RT_SRCS *.cpp)
+
+LIST(APPEND RT_SRCS ${_RT_SRCS})
+
+# Pass to parent
+set(RT_SRCS ${RT_SRCS} PARENT_SCOPE)
